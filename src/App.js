@@ -27,7 +27,8 @@ class App extends Component {
         <UserOutput  userName = {this.state.userName}/>
         <UserInput 
         styles ={styles}
-        changed={this.userHandler}/>
+        changed={this.userHandler}
+          newName={this.state.userName}/>
       </div>
     );
   }
